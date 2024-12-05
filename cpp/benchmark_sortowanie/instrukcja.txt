@@ -1,0 +1,14 @@
+Ćwiczenie wymaga wcześniejszego przeanalizowania ćwiczenia "unit tests",
+jeśli jeszcze go nie masz zainstaluj poleceniem: studenmachine exercise cpp_unit_tests
+następnie zapoznaj się z materiałem.
+
+Testy benchmarkowe to specjalne rodzaje testów, których celem jest pomiar wydajności 
+danego fragmentu kodu lub całego programu. W przeciwieństwie do tradycyjnych testów jednostkowych, 
+które sprawdzają poprawność logiczną i funkcjonalność kodu, testy benchmarkowe 
+skupiają się na ocenie czasu wykonania określonych operacji.
+
+W tym ćwiczeniu przedstawiony jest benchmark w którym sprawdzana 
+jest czasochłonność posortowania wektora zawierającego 10 tysięcy 
+losowych wartości liczbowych.
+W przykładzie zastosowano algorytm QuickSort. 
+Dopisz benchmark z algorytmem BubleSort a następnie przeanalizuj uzyskane wyniki.
