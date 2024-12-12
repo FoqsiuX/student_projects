@@ -1,0 +1,10 @@
+FizzBuzz
+
+wymagane jest wcześniejsze zainstalowanie ćwiczenia cpp_unit_tests
+studentmachine exercise cpp_unit_tests
+
+Napisz funkcję, która przyjmuje liczbę.
+Zwraca "Fizz" dla liczb podzielnych przez 3, 
+"Buzz" dla liczb podzielnych przez 5, 
+a "FizzBuzz" dla liczb podzielnych przez oba. 
+Następnie napisz testy dla tej funkcji.

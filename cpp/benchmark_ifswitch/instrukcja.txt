@@ -1,0 +1,60 @@
+Ćwiczenie wymaga wcześniejszego przeanalizowania ćwiczenia "unit tests",
+jeśli jeszcze go nie masz zainstaluj poleceniem: studenmachine exercise cpp_unit_tests
+następnie zapoznaj się z materiałem.
+
+Testy benchmarkowe to specjalne rodzaje testów, których celem jest 
+pomiar wydajności danego fragmentu kodu lub całego programu. 
+W przeciwieństwie do tradycyjnych testów jednostkowych, 
+które sprawdzają poprawność logiczną i funkcjonalność kodu, 
+testy benchmarkowe skupiają się na ocenie czasu wykonania określonych operacji.
+
+W tym ćwiczeniu Twoim zadaniem jest napisanie benchmarku 
+sprawdzającego która proces wyboru opcji będzie wydajniejszy czasowo: if czy switch.
+
+Przykład instrukcji switch
+
+int day = 4;
+switch (day) {
+  case 1:
+    cout << "Monday";
+    break;
+  case 2:
+    cout << "Tuesday";
+    break;
+  case 3:
+    cout << "Wednesday";
+    break;
+  case 4:
+    cout << "Thursday";
+    break;
+  case 5:
+    cout << "Friday";
+    break;
+  case 6:
+    cout << "Saturday";
+    break;
+  case 7:
+    cout << "Sunday";
+    break;
+}
+
+Przykład instrukcji if
+
+int day = 4;
+
+if (day == 1) {
+    cout << "Monday";
+} else if (day == 2) {
+    cout << "Tuesday";
+} else if (day == 3) {
+    cout << "Wednesday";
+} else if (day == 4) {
+    cout << "Thursday";
+} else if (day == 5) {
+    cout << "Friday";
+} else if (day == 6) {
+    cout << "Saturday";
+} else if (day == 7) {
+    cout << "Sunday";
+}
+
