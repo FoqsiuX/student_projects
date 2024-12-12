@@ -1,0 +1,2 @@
+# Aplikacja Schody
+adwgeaaw
