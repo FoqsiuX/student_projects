@@ -1,6 +1,6 @@
 # Dokumentacja programu **Schody**
 
-##Opis programu
+## Opis programu
 Program **Schody** oblicza optymalną liczbę stopni, ich wysokość oraz głębokość na podstawie zadanej wysokości i głębokości klatki schodowej. Program uwzględnia światowe normy ergonomiczne, które określają:
 
 - **Wysokość stopnia (h):** od 16 cm do 20,5 cm
