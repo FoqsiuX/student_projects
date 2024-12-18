@@ -1,25 +1,27 @@
-// main_test.cpp
 #include <gtest/gtest.h>
 #include "functions.cpp"
-
-
-TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+ 
+TEST(FizzBuzzTest, DivisibleBy3) {
+    EXPECT_EQ(FizzBuzz(3), "Fizz");
+    EXPECT_EQ(FizzBuzz(6), "Fizz");
 }
-
-TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+ 
+TEST(FizzBuzzTest, DivisibleBy5) {
+    EXPECT_EQ(FizzBuzz(5), "Buzz");
+    EXPECT_EQ(FizzBuzz(10), "Buzz");
 }
-
-TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+ 
+TEST(FizzBuzzTest, DivisibleBy3And5) {
+    EXPECT_EQ(FizzBuzz(15), "FizzBuzz");
+    EXPECT_EQ(FizzBuzz(30), "FizzBuzz");
 }
-
-
-// ... inne testy ...
-
+ 
+TEST(FizzBuzzTest, NotDivisibleBy3Or5) {
+    EXPECT_EQ(FizzBuzz(1), "1");
+    EXPECT_EQ(FizzBuzz(7), "7");
+}
+ 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
-
